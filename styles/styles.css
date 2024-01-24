@@ -40,7 +40,7 @@ aside {
    text-align: center;
 }
   aside h2 {
-   position: relative;
+   position: absolute;
    top: 50px;
    left: 50px;
 }
