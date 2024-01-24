@@ -38,11 +38,11 @@ aside {
    background-color: #eee;
    color: #333;
    text-align: center;
-
+}
   aside h2 {
    position: relative;
-   top: 100px;
-   left: 150px;
+   top: 50px;
+   left: 50px;
 }
   footer {
     margin-top: 15px;
