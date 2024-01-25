@@ -30,11 +30,8 @@ main img {
  main {
     max-width: 840px;
 }
-
-  aside h2 {
-   position: absolute;
-   top: 50px;
-   left: 50px;
+aside {
+   position: relative;
    width: 20rem;
    margin: 1rem;
    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
@@ -42,6 +39,11 @@ main img {
    background-color: #eee;
    color: #333;
    text-align: center;
+}
+  aside h2 {
+   position: absolute;
+   top: 50px;
+   left: 50px;
 }
   footer {
     margin-top: 15px;
