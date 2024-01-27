@@ -12,9 +12,6 @@ img {
   }
 
 
-  
-}
-
 :root {
     --primary-color: #274029;
     --secondary-color: #315C2B;
@@ -47,6 +44,9 @@ header {
 article {
     position: absolute;
 }
+.hero div {
+    position: relative;
+}
  .hero img {
     display: block;
     width: 100%;
@@ -54,3 +54,8 @@ article {
     opacity: 0.5;
 }
 
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+ }
