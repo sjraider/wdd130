@@ -2,6 +2,10 @@
 a {
     text-decoration: none;
   }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 :root {
     --primary-color: #274029;
     --secondary-color: #315C2B;
@@ -39,5 +43,5 @@ h1 {
 
 article {
     position: absolute;
-    
+
 }
