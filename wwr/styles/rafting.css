@@ -3,13 +3,17 @@ a {
     text-decoration: none;
   }
 
-  div.content { width: 1000px }
+div.content { width: 1000px }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    opacity: 05.;
+    opacity: 0.5;
   }
+
+
+  
+}
 
 :root {
     --primary-color: #274029;
