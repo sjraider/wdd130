@@ -34,16 +34,15 @@ header {
  p {
     padding: 25px;
  }
- .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1 {
+ h1 {
     position: absolute;
 }
 
 article {
     position: absolute;
+}
+ .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
