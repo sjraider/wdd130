@@ -45,6 +45,10 @@ aside {
    top: 10px;
    left: 10px;
 }
+
+<div class="grid"></grid>
+
+
   footer {
     margin-top: 15px;
     border-top: 1px solid #000;
@@ -69,7 +73,6 @@ header, footer, .grid {
    display: grid;
    align-items: center;
 }
-<div class=.grid></grid>
 
 nav {
    background-color: steelblue;
