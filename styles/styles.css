@@ -63,11 +63,11 @@ aside {
 header, footer {
    max-width: 840px;
    margin: 0 auto;
-   .grid {
+   .grid 
       display: grid;
       align-items: center;
    }
-}
+
 nav {
    background-color: steelblue;
    padding: 1rem;
