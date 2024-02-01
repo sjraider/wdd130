@@ -60,13 +60,16 @@ aside {
    color: #000;
 }
 
+
+
 header, footer {
    max-width: 840px;
    margin: 0 auto;
-   .grid 
-      display: grid;
       align-items: center;
-   }
+      <div class=grid>
+
+}
+
 
 nav {
    background-color: steelblue;
