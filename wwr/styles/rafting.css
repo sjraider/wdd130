@@ -37,6 +37,20 @@ img {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        justify-content: space-between;
+      }
+      
+      .logo {
+        grid-column: 1;
+      }
+      
+      .navigation-bar {
+        grid-column: 2;
+      }
     
  }
  p {
@@ -70,4 +84,11 @@ footer {
     height: 40px;
   }
 
-  
+  ul.navbar-nav{
+    float:right;
+    }
+    
+    ul.navbar-nav li{
+        display: inline;
+        list-style-type: none;
+    }
