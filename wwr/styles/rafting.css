@@ -7,13 +7,13 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
+    padding: 20px;
+    background-color: var(--accent1-color);
+
 }
 
-.logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 64px;
-	height: auto;
-}
+
+
 
 h1 {
 	font-size: 2rem;
@@ -24,32 +24,9 @@ nav {
 	text-align: right;
 }
 
-.navigation {
-	display: flex;
-	list-style: none;
-}
 
-.navigation li {
-	flex: 1 1 100%;
-}
 
-.navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
-}
 
-.navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
-}
-
-.preview {
-    display: inline-block;
-    margin: 0 40px 0 0;
-}
 
 :root {
     --primary-color: #274029;
@@ -69,45 +46,8 @@ nav {
   .navigation-bar {
     grid-column: 2;
   }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font) ;
-    color: var(--primary-color) ;
-}
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-}
 
-p {
-padding: 25px;
-}
-h1 {
-position: absolute;
-}
-
-article {
-position: absolute;
-}
-.hero div {
-position: relative;
-}
-
-
-footer {
-margin-top: 15px;
-border-top: 1px solid #000;
-text-align: center;
-}
-
-.footerImage {
-height: 40px;
-}
-
-ul.navbar-nav{
-float:right;
-}
-
-ul.navbar-nav li{
-    display: inline;
-    list-style-type: none;
-}
+  .image-row {
+    display: flex;
+    justify-content: space-between; /* this will add equal space between each image */
+  }
