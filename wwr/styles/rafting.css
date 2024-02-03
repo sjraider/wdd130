@@ -1,91 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-a {
-    text-decoration: none;
-  }
 
-  nav {
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+nav {
 	text-align: right;
 }
 
-div.content { width: 1000px }
-
-img {
-    max-width: 50%;
-    height: auto;
-    opacity: 0.5;
-  }
-
-
-:root {
-    --primary-color: #274029;
-    --secondary-color: #315C2B;
-    --accent1-color: #60712F;
-    --accent2-color: #9EA93F;
-  
-    --heading-font: 'Oswald', sans serif;
-    --paragraph-font: 'Oswald', sans serif;
-  
-    --nav-background-color: #274029;
-    --nav-link-color: #315C2B;
-    --nav-hover-link-color: #60712F;
-    --nav-hover-background-color: #9EA93F;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font) ;
-    color: var(--primary-color) ;
-}
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-
-      
-      .logo {
-        grid-column: 1;
-      }
-      
-      .navigation-bar {
-        grid-column: 2;
-      }
-    
- }
- p {
-    padding: 25px;
- }
- h1 {
-    position: absolute;
+.navigation {
+	display: flex;
+	list-style: none;
 }
 
-article {
-    position: absolute;
-}
-.hero div {
-    position: relative;
-}
- .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-    opacity: 0.5;
+.navigation li {
+	flex: 1 1 100%;
 }
 
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
 
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
- }
-
- .footerImage {
-    height: 40px;
-  }
-
-  ul.navbar-nav{
-    float:right;
-    }
-    
-    ul.navbar-nav li{
-        display: inline;
-        list-style-type: none;
-    }
-
-    
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
