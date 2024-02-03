@@ -45,3 +45,69 @@ nav {
 	font-weight: 700;
 	text-decoration: underline;
 }
+
+.preview {
+    display: inline-block;
+    margin: 0 40px 0 0;
+}
+
+:root {
+    --primary-color: #274029;
+    --secondary-color: #315C2B;
+    --accent1-color: #60712F;
+    --accent2-color: #9EA93F;
+  
+    --heading-font: 'Oswald', sans serif;
+    --paragraph-font: 'Oswald', sans serif;
+  
+    --nav-background-color: #274029;
+    --nav-link-color: #315C2B;
+    --nav-hover-link-color: #60712F;
+    --nav-hover-background-color: #9EA93F;
+  }
+
+  .navigation-bar {
+    grid-column: 2;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font) ;
+    color: var(--primary-color) ;
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+padding: 25px;
+}
+h1 {
+position: absolute;
+}
+
+article {
+position: absolute;
+}
+.hero div {
+position: relative;
+}
+
+
+footer {
+margin-top: 15px;
+border-top: 1px solid #000;
+text-align: center;
+}
+
+.footerImage {
+height: 40px;
+}
+
+ul.navbar-nav{
+float:right;
+}
+
+ul.navbar-nav li{
+    display: inline;
+    list-style-type: none;
+}
