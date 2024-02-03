@@ -39,13 +39,7 @@ header {
     background-color: var(--accent1-color);
 
       
-      .logo {
-        grid-column: 1;
-      }
-      
-      .navigation-bar {
-        grid-column: 2;
-      }
+
     
  }
  p {
