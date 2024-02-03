@@ -12,9 +12,6 @@ header {
 
 }
 
-
-
-
 h1 {
 	font-size: 2rem;
 	font-family: Acme, Arial, sans-serif;
@@ -23,9 +20,6 @@ h1 {
 nav {
 	text-align: right;
 }
-
-
-
 
 
 :root {
