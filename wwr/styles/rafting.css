@@ -42,6 +42,14 @@ nav {
   }
 
   .image-row {
-    display: flex;
+    display: landscape;
     justify-content: space-between; /* this will add equal space between each image */
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
   }
