@@ -15,6 +15,7 @@ header {
 h1 {
 	font-size: 2rem;
 	font-family: Acme, Arial, sans-serif;
+  position:absolute;
 }
 
 nav {
@@ -37,12 +38,18 @@ nav {
     --nav-hover-background-color: #9EA93F;
   }
 
+  .hero img {
+    display: block;
+     width: 100%;
+     height: auto;
+ }
+
   .navigation-bar {
     grid-column: 2;
   }
 
   .image-row {
-    display: landscape;
+    display: inline;
   }
   .row {
     display: flex;
