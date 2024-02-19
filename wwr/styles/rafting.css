@@ -42,6 +42,7 @@ nav {
     display: block;
      width: 100%;
      height: auto;
+     float:right;
  }
 
   .navigation-bar {
