@@ -61,3 +61,24 @@ nav {
     display: block;
     width: 60%;
     }
+
+    table, td {
+      border: 1px solid #333;
+      border-collapse: collapse;
+    }
+    
+    thead, tfoot {
+       background-color: #333;
+       color: #fff;
+    }
+    
+    th, td {
+      padding: 0.5rem;
+    }
+    
+    caption {
+        font-weight: 700;
+        font-size: smaller;
+        color: navy;
+        font-variant: small-caps;
+    }
