@@ -1,62 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background: #b9b3a9;
-  display: flex;
-  justify-content: center;
-}
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+    padding: 20px;
+    background-color: var(--accent1-color);
 
-.container {
-  width: 450px;
-  padding: 20px;
-  margin-top: 80px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
 }
 
 h1 {
-  text-align: center;
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+  position:absolute;
 }
 
-.question {
-  font-weight: bold;
-  margin-bottom: 10px;
+nav {
+	text-align: right;
 }
 
-.options {
-  margin-bottom: 20px;
-}
 
-.option {
-  display: block;
-  margin-bottom: 10px;
-}
+:root {
+    --primary-color: #274029;
+    --secondary-color: #315C2B;
+    --accent1-color: #60712F;
+    --accent2-color: #9EA93F;
+  
+    --heading-font: 'Oswald', sans serif;
+    --paragraph-font: 'Oswald', sans serif;
+  
+    --nav-background-color: #274029;
+    --nav-link-color: #315C2B;
+    --nav-hover-link-color: #60712F;
+    --nav-hover-background-color: #9EA93F;
+  }
 
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #428bca;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 4px;
-  transition: background-color 0.3s;
-  margin-right: 10px;
-}
+  .hero img {
+    display: block;
+     width: 100%;
+     height: auto;
+     float:right;
+ }
 
-.button:hover {
-  background-color: #3071a9;
-}
+  .navigation-bar {
+    grid-column: 2;
+  }
 
-.result {
-  text-align: center;
-  margin-top: 20px;
-  font-weight: bold;
-}
+  .image-row {
+    display: inline;
+  }
+  .row {
+    display: flex;
+  }
+  
 
-.hide{
-  display: none;
-}
+  input[type=“submit”] {
+    display: block;
+    width: 60%;
+    }
