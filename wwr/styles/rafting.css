@@ -43,6 +43,7 @@ nav {
      width: 100%;
      height: auto;
      float:right;
+     opacity: 20;
  }
 
   .navigation-bar {
@@ -82,3 +83,19 @@ nav {
         color: navy;
         font-variant: small-caps;
     }
+    body {
+      background-color: beige;
+      ;
+    }
+
+    /* container */
+.two-columns-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* columns */
+.two-columns-grid > * {
+  padding:1rem;
+}
+
