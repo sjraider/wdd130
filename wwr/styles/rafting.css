@@ -200,3 +200,6 @@ input[type=button], input[type=submit], input[type=reset] {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+span.black {font-size:10px;color:black}
+span.red{font-size:12px;color:Red}
