@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
-    padding: 20px;
-    background-color: var(--accent1-color);
-}
+
     *{
         margin: 0;
         padding: 0;
