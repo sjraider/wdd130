@@ -17,12 +17,13 @@
     header {
         margin: 0 auto;
         width: 650px;
+        align-items:flex-end;
     }
     
     h1 {
        margin: 1rem;
        font-size: 1.5em;
-       color: navy;
+       color: green;
        text-align: center;
     }
     
@@ -46,7 +47,7 @@
     
     legend {
       padding: 0.5rem;
-      color: navy;
+      color: green;
       font-size: 1.3em;
     }
     
@@ -91,4 +92,5 @@
       color: #777;
       border-top: 1px solid #ccc;
     }
-    
+
+    .background:
